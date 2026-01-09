@@ -42,17 +42,117 @@ nav .menu a {
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    color: white;   
+    cursor: pointer;
+    text-decoration: none; 
+    display: inline-block; 
 }
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-heading{
+    max-width: 827px ;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.section-heading p {
+    font-size: 20px;
+}
+
+.section-heading h2{
+    color: #FD6E0A;
+    font-size: 45px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+
 
 
 /*main style*/
-header {background-color:#FFF8F3;
-padding-top: 50px;
+
+header {
+    position: relative;
+    background-color: #fff8f3;
+    background: url(developer.png), url(header_bg.png) #fff8f3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
+
 nav{
-    width: 71%;
-    max-width: 1140px;
+    width: 85%;
+    max-width: 2000px;
     margin: auto;
     display: flex;
     justify-content:space-between;
+    padding-top: 20px;
+}
+ #banner{
+    /*border: 1px solid red;*/
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+#banner .banner-content {
+    max-width: 1140px;
+}
+ #banner .banner-content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #474747;
+ }
+  #banner .banner-content h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: #181818;
+    margin-bottom: 20px;
+ }
+
+ #banner .banner-content p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #474747;
+    max-width: 500px;
+ }
+
+.banner-image img {
+    vertical-align: middle;
+    width: 584px;
+    margin-left: auto;
+    display: block;    
+}
+
+#about {
+    padding-top: 100px;
+}
+
+#about .about-container{
+    width: 80%;
+    max-width: 100 px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p {
+    font-size: 17px;
+    margin-bottom: 5px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .info-card h4{
+    font-size: 18px;
 }
